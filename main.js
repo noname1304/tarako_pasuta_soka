@@ -9,6 +9,8 @@ let text_value = before_text.value;
 //テキストを変換 ..②
 text_value = text_value.replace(/創価/g,"⬛︎⬛︎");
 text_value = text_value.replace(/そうか/g,"⬛︎⬛︎⬛︎");
+text_value = text_value.replace(/ソウカ/g,"⬛︎⬛︎⬛︎");
+text_value = text_value.replace(/ｿｳｶ/g,"⬛︎⬛︎⬛︎");
 text_value = text_value.replace(/soka/g,"⬛︎⬛︎⬛︎⬛︎");
 text_value = text_value.replace(/Soka/g,"⬛︎⬛︎⬛︎⬛︎");
 text_value = text_value.replace(/SOKA/g,"⬛︎⬛︎⬛︎⬛︎");
